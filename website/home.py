@@ -10,9 +10,6 @@ pp_page_5 = st.Page("pages/project_plan_pages/page_5.py", title="Algorithm Analy
 pp_page_6 = st.Page("pages/project_plan_pages/page_6.py", title="Algorithm Selection")
 pp_page_7 = st.Page("pages/project_plan_pages/page_7.py", title="User Interface")
 
-
-
-
 pg = st.navigation(
     {"Home": [introduction_page],
      "Team Information": [team_information_page],
@@ -21,9 +18,6 @@ pg = st.navigation(
      "Code Explanation": [],
      "Check for fraud": [],
      "Future Uses": []}) 
-    # ,
-    # ,
-    # st.Page("pages/implementation_plan.py", title="Implementation Plan"),
-    # st.Page("pages/code_explanation.py", title="Project Code Explanation")])
+
 pg.run()
 
