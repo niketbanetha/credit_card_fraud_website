@@ -3,8 +3,6 @@ import streamlit as st
 st.markdown("\n")
 st.header("Algorithm Analysis")
 data = ""
-with open(r"C:\Users\user\Documents\College\AI_Project\website\data\pp_page_5.txt", "r") as file:
-    data = file.read()
 st.markdown(''' ### 1) Decision Tree:\n
 ##### Advantages:\n
 • ***Simplicity***: Easy to understand and interpret.\n
