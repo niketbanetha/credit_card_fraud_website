@@ -54,7 +54,7 @@ def calculate_total_expenditure(dataframe, trans_type_col, amount_col):
 if __name__=="__main__":
 
     st.header("Project: Credit Card Fraud Detection")
-    st.header("Group Number: 21")
+    st.header("Group Number: 22")
 
     file_uploaded = st.file_uploader("Upload Bank Statement Excel or CSV File", accept_multiple_files=False, type=["csv", "xls"])
 
